@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1501
+D High-precision buffered voltage reference
+$ENDCMP
+#
+$CMP MCP47x6
+D 8/10/12-Bit Voltage Output Digital-to-Analog Converter with EEPROM and I2C interface
+K 1ch dac i2c eeprom 8-Bit 10-Bit 12-Bit
+$ENDCMP
+#
+$CMP VREF2048
+D Power symbol creates a global label with name "VREF2048"
+K power-flag
+$ENDCMP
+#
+#End Doc Library
