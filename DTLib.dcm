@@ -1,5 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AVCC
+D Power symbol creates a global label with name "AVCC"
+K power-flag
+$ENDCMP
+#
+$CMP AVR-ISP-6
+D Atmel 6-pin ISP connector
+K AVR ISP Connector
+F  ~
+$ENDCMP
+#
 $CMP MCP1501
 D High-precision buffered voltage reference
 $ENDCMP
@@ -7,6 +18,12 @@ $ENDCMP
 $CMP MCP47x6
 D 8/10/12-Bit Voltage Output Digital-to-Analog Converter with EEPROM and I2C interface
 K 1ch dac i2c eeprom 8-Bit 10-Bit 12-Bit
+$ENDCMP
+#
+$CMP NUP2114UCMR6T1G
+D ESD Protection Diode, TSOP-6
+K ESD protection USB
+F https://www.onsemi.com/pdf/datasheet/nup2114-d.pdf
 $ENDCMP
 #
 $CMP VREF2048
