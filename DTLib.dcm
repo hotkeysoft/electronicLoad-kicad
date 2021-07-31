@@ -11,6 +11,11 @@ K AVR ISP Connector
 F  ~
 $ENDCMP
 #
+$CMP LCD_2X12-I2C
+D 2 Lines, 12 character alpha numeric LCD, I2C, 5V
+K display LCD 7-segment
+$ENDCMP
+#
 $CMP MCP1501
 D High-precision buffered voltage reference
 $ENDCMP
