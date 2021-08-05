@@ -11,7 +11,12 @@ K AVR ISP Connector
 F  ~
 $ENDCMP
 #
-$CMP LCD_2X12-I2C
+$CMP FAN_VCC
+D Power symbol creates a global label with name "AVCC"
+K power-flag
+$ENDCMP
+#
+$CMP LCD-I2C
 D 2 Lines, 12 character alpha numeric LCD, I2C, 5V
 K display LCD 7-segment
 $ENDCMP
