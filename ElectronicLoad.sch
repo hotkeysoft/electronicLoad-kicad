@@ -373,13 +373,13 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J2
 U 1 1 6105A6F9
-P 16100 1300
-F 0 "J2" H 16180 1292 50  0000 L CNN
-F 1 "Load" H 16180 1201 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 16100 1300 50  0001 C CNN
-F 3 "~" H 16100 1300 50  0001 C CNN
-	1    16100 1300
-	1    0    0    1   
+P 16100 1200
+F 0 "J2" H 16180 1192 50  0000 L CNN
+F 1 "Load" H 16180 1101 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 16100 1200 50  0001 C CNN
+F 3 "~" H 16100 1200 50  0001 C CNN
+	1    16100 1200
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	15800 1900 15800 1300
