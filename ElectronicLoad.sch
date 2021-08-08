@@ -827,7 +827,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 4050 5750 4050
 Wire Wire Line
-	5500 4150 5750 4150
+	5500 4250 5750 4250
 $Comp
 L power:GND #PWR012
 U 1 1 61135F29
@@ -2291,10 +2291,10 @@ Text GLabel 12900 6550 2    50   Output ~ 0
 ~OT_SHUTDOWN
 Wire Wire Line
 	12550 6550 12900 6550
-Text GLabel 6000 4250 2    50   Output ~ 0
+Text GLabel 6000 4150 2    50   Output ~ 0
 FAN_PWM
 Wire Wire Line
-	5500 4250 6000 4250
+	5500 4150 6000 4150
 Wire Wire Line
 	11550 7850 11550 7950
 Wire Wire Line
@@ -3086,10 +3086,12 @@ F 3 "~" H 14900 5300 50  0001 C CNN
 $EndComp
 NoConn ~ 5750 3950
 NoConn ~ 5750 4050
-NoConn ~ 5750 4150
+NoConn ~ 5750 4250
 NoConn ~ 5750 4450
 NoConn ~ 5750 4550
 NoConn ~ 5750 5150
 NoConn ~ 5750 5350
 NoConn ~ 5750 5450
+Text Notes 10000 3050 0    50   ~ 0
+Default config: \n- Cf non populated\n- Rf = 0R
 $EndSCHEMATC
