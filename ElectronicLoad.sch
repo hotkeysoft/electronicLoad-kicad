@@ -346,7 +346,7 @@ U 1 1 6104478B
 P 14200 1700
 F 0 "C22" H 14315 1746 50  0000 L CNN
 F 1 "2.2μF" H 14315 1655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 14238 1550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 14238 1550 50  0001 C CNN
 F 3 "~" H 14200 1700 50  0001 C CNN
 	1    14200 1700
 	1    0    0    -1  
@@ -1497,8 +1497,8 @@ F 3 " ~" H 5275 2500 50  0001 C CNN
 	1    6550 3050
 	0    1    1    0   
 $EndComp
-Text Notes 900  10250 0    50   ~ 0
-100nF are MLCC X7R 50V\n10μF are Tantalum 10V
+Text Notes 850  10200 0    50   ~ 0
+All caps MLCC X7R 50V\nunless specified otherwise
 Wire Wire Line
 	11250 3900 11500 3900
 Wire Wire Line
@@ -1847,12 +1847,12 @@ F 3 "~" H 2300 9250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C4
+L Device:C C4
 U 1 1 6112CDB1
 P 2800 9250
 F 0 "C4" H 2918 9296 50  0000 L CNN
-F 1 "10μF" H 2918 9205 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 2838 9100 50  0001 C CNN
+F 1 "1μF" H 2918 9205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2838 9100 50  0001 C CNN
 F 3 "~" H 2800 9250 50  0001 C CNN
 	1    2800 9250
 	1    0    0    -1  
@@ -1938,12 +1938,12 @@ Wire Notes Line
 Text Notes 4350 9950 0    50   ~ 0
 Power Monitor
 $Comp
-L Device:CP C10
+L Device:C C10
 U 1 1 6239FE7C
 P 4600 9250
 F 0 "C10" H 4718 9296 50  0000 L CNN
-F 1 "10μF" H 4718 9205 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 4638 9100 50  0001 C CNN
+F 1 "1μF" H 4718 9205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4638 9100 50  0001 C CNN
 F 3 "~" H 4600 9250 50  0001 C CNN
 	1    4600 9250
 	1    0    0    -1  
@@ -1959,12 +1959,12 @@ Wire Wire Line
 Connection ~ 4100 8900
 Connection ~ 4100 9600
 $Comp
-L Device:CP C12
+L Device:C C12
 U 1 1 649862C6
 P 6600 9250
 F 0 "C12" H 6718 9296 50  0000 L CNN
-F 1 "10μF" H 6718 9205 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 6638 9100 50  0001 C CNN
+F 1 "2.2μF" H 6718 9205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 6638 9100 50  0001 C CNN
 F 3 "~" H 6600 9250 50  0001 C CNN
 	1    6600 9250
 	1    0    0    -1  
