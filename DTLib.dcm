@@ -54,6 +54,12 @@ K ESD protection USB
 F https://www.onsemi.com/pdf/datasheet/nup2114-d.pdf
 $ENDCMP
 #
+$CMP USB4105-GF-A
+D USB 2.0-only Type-C Receptacle connector
+K usb universal serial bus type-C USB2.0
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
 $CMP VREF2048
 D Power symbol creates a global label with name "VREF2048"
 K power-flag
