@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.9)-1*
-G04 #@! TF.CreationDate,2021-08-12T22:27:46-04:00*
+G04 #@! TF.CreationDate,2021-08-12T22:57:42-04:00*
 G04 #@! TF.ProjectId,ElectronicLoad,456c6563-7472-46f6-9e69-634c6f61642e,A*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-08-12 22:27:46*
+G04 Created by KiCad (PCBNEW (5.1.9)-1) date 2021-08-12 22:57:42*
 %MOMM*%
 %LPD*%
 G01*
@@ -48,8 +48,8 @@ X109676000Y-80344000D03*
 X109676000Y-90344000D03*
 X109676000Y-85344000D03*
 D11*
-X112776000Y-93644000D03*
-X112776000Y-77044000D03*
+X112776000Y-93444000D03*
+X112776000Y-77244000D03*
 D10*
 X112276000Y-82844000D03*
 X112276000Y-87844000D03*
